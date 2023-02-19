@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Out Of Bounds Creative   |   Portfolio</title>
+    <link rel="icon" type="image/png" href="img/oobc_favicon.png">
+      <link rel="stylesheet" href="css/normalize.css"/>
+      <link rel="stylesheet" href="css/main.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <header>
+      <div class="full-width">
+        <img src="img/oobc_white_logo.png" alt="Out of Bounds Creative logo" id="logo"/>
+      </div>
+      <div class="full-width">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="projects/index.html">Projects</a></li>
+            <li><a href="#connect">Connect</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="full-width">
+          <h2>Hi &amp thanks for visiting!</h2>
+            <p> We pride ourselves on wholistic design. Starting with your business'
+              goals and dreams for an online presence, building a cohesive design layout,
+              launching your new site, and scalability to meet
+              the growing needs of your business. </p>
+        </div>
+      </section> <!-- END ABOUT SECTION -->
+
+        <section id="process">
+          <div class="full-width">
+            <div class="third-width">
+              <h3>Strategy</h3>
+                <p> Our team seeks to help you clarify the branding needs of
+                  your organization. We seek to truly understand your audience
+                  and their needs as well. </p>
+            </div>
+            <div class="third-width">
+              <h3>Design</h3>
+                <p>We know that your business is unique and have a steadfast belief
+                  that your website should reflect that. Let us help you build an
+                  elegant site that will blend function and beauty.</p>
+            </div>
+            <div class="third-width">
+              <h3>Content Management</h3>
+                <p>Once your site is live we will help you celebrate! But, we know
+                  that your online needs are not one and done. We will be your partner
+                  in ensuring that as your business grows and changes your online
+                  presence does as well!
+            </div>
+          </div>
+        </section> <!-- END PROCESS SECTION -->
+
+      <section id="connect">
+        <div class="full-width">
+          <div class="half-width">
+            <h2> Interested in hearing more?</h2>
+            <p> Drop us a line if you are curious what OBC can do to make
+              your web presence a reality!</p>
+          </div>
+          <div class="half-width" id="email">
+            <a href="mailto:johnsbr99@gmail.com">hi [@] obccreative.com</a>
+          </div>
+        </div>
+      </section> <!-- END CONNECT SECTION -->
+
+      <footer>
+        <h5> Out of Bounds Creative 2023 &copy; </h5>
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </main>
+  </body>
+</html>

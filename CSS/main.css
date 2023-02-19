@@ -1,0 +1,187 @@
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+.fourth-width {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #006666;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: none;
+  color: #006666;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+/***** HEADER SECTION *****/
+header {
+  background-image: url("../img/outdoors.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 550px;
+  padding: 5px 0px 5px 0px;
+}
+
+#logo {
+  display: block;
+  padding: 7% 0 0 0;
+  margin: 0 auto;
+  width: 50%;
+}
+
+nav {
+  margin: 0 auto  5% auto;
+  padding: 0;
+  position: relative;
+  top: 5px;
+  width: 1200px
+}
+
+nav ul{
+  list-style: none;
+  margin: 15px auto;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-family: "chakara-petch", sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, a.on {
+  /*color: #CC3333;*/
+  text-decoration: underline;
+}
+
+/********* ABOUT SECTION ***********/
+#about {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#about h2 {
+  font-size: 36px;
+}
+
+#about p {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+/***** WORK SECTION *****/
+#process .full-width {
+  padding: 50px 0;
+}
+#process {
+  background-color: #006666;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+#process h3 {
+  font-size: 30px;
+}
+
+#process .third-width {
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 0 25px;
+}
+
+#process p {
+  font-size: 21px;
+  line-height: 30px;
+}
+/******* CONNECT SECTION *******/
+#connect .full-width {
+  padding: 50px 0;
+  height: 200px;
+}
+}
+
+#connect {
+  background-color: #f2f2f2
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#connect h2 {
+  font-size: 36px;
+}
+
+#connect p {
+  font-size: 21px;
+  line-height: 30px;
+}
+
+#connect a {
+  color: #006666;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 100px;
+}
+
+#email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
